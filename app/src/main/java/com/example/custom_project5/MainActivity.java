@@ -29,28 +29,28 @@ public class MainActivity extends AppCompatActivity {
         jungho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"팀장입니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"김정호입니다.", Toast.LENGTH_SHORT).show();
             }
         });
 
         jongseok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"팀원입니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"김종석입니다.", Toast.LENGTH_SHORT).show();
             }
         });
 
         youngjea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"팀원입니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"양영재입니다.", Toast.LENGTH_SHORT).show();
             }
         });
 
         soona.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Toast.makeText(getApplicationContext(),"팀원입니다.", Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"김수나입니다.", Toast.LENGTH_SHORT).show();
             }
         });
     }
